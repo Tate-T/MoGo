@@ -13,11 +13,20 @@
 .header {
     padding: 17px;
 }
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .header-logo {
     font-weight: 700;
     font-size: 30px;
     line-height: 1.23;
     color: #95E1D3;
+}
+.header-list {
+    display: flex;
+    gap: 55px;
 }
 .header-link {
     font-weight: 400;
