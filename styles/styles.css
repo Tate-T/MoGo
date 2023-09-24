@@ -1,5 +1,5 @@
 * {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
 }
 
 .container {
@@ -41,7 +41,7 @@
 
 .header-link::after {
   display: block;
-  content: "";
+  content: '';
   background-color: #f38181;
   width: 100%;
   height: 3px;
@@ -61,7 +61,7 @@
 }
 
 .subtitle {
-  font-family: "Kaushan Script";
+  font-family: 'Kaushan Script';
   font-weight: 400;
   font-size: 24px;
   line-height: 1.46;
@@ -157,10 +157,12 @@
 
 .team-overlay::before {
   display: block;
-  content: "";
-  background: linear-gradient(180deg,
-      rgba(239, 139, 138, 0.8) 0%,
-      rgba(229, 207, 130, 0.8) 100%);
+  content: '';
+  background: linear-gradient(
+    180deg,
+    rgba(239, 139, 138, 0.8) 0%,
+    rgba(229, 207, 130, 0.8) 100%
+  );
   width: 100%;
   height: 100%;
   position: absolute;
@@ -198,7 +200,7 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 1104px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
@@ -210,6 +212,7 @@
 .team-icon {
   width: 35px;
   height: 35px;
+  fill: #f38181;
 }
 
 .team-socials {
@@ -226,7 +229,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #f38181;
 }
 
 .team-overlay:hover .team-socials {
@@ -243,7 +245,7 @@
 
 .footer-input {
   padding: 8px 12px;
-  border: solid #B6B6B6;
+  border: solid #b6b6b6;
   outline: none;
 }
 
