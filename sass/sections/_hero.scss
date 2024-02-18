@@ -1,0 +1,70 @@
+.hero-subtitle {
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.46;
+    color: #333333;
+    text-align: center;
+  }
+  
+  .hero-title {
+    margin-bottom: 109px;
+  }
+  
+  .title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.23;
+    font-variant: all-small-caps;
+    color: #333333;
+    text-align: center;
+  }
+  
+  .hero {
+    padding-top: 68px;
+  }
+  
+  .hero-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 100px;
+  }
+  
+  .hero-item {
+    width: 328px;
+    display: flex;
+  }
+  
+  .hero-icon {
+    width: 37px;
+    height: 37px;
+    flex-shrink: 0;
+    margin-right: 20px;
+    fill: rgba(149, 225, 211, 1);
+  }
+  
+  .hero-icon:hover {
+    fill: #f38181;
+  }
+  
+  .hero-name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21;
+    font-variant: small-caps;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.46;
+    color: #b6b6b6;
+  }
+  
